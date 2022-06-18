@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header__superior">
+            <p class="topBarP1">Teléfono de contacto: 600000000 / 9410000000</p>
+            <p class="topBarP2">Correo electrónico: info@logronesadelimpiezas.com</p>
+        </div>
+     
+    <div class="logoMenu">
+        <div class="header__logo">
+            <img src="./imagenes/logronesa-logo.jpg">
+        </div>
+            
+        <nav class="header__menu">
+                <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./presupuesto.html">Solicitar presupuesto</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+                </ul>   
+        </nav>
+    </div>
+    </header>
+<hr>
+
+<section class="contacto">
+     <h2 class="contactoH2">¡Ponte en contacto con nosotros!</h2>
+  <div class="BloqueFormulario">
+
+
+<form  action="formulario.php" method="get">
+
+  <div class="saltosDeLinea">
+    <label for="nombreyapellidos">Nombre y apellidos:</label>
+    <input type="text" id="nombreyapellidos" placeholder="Ingresa tu nombre y tus apellidos">
+  </div>
+
+<div class="saltosDeLinea">
+    <label for="correo">Correo electrónico:</label>
+    <input type="mail" id="correo" placeholder="Ingresa tu correo electrónico">
+</div>
+
+<div class="saltosDeLinea">
+    <label for="telf">Teléfono de contacto:</label>
+    <input type="tel" id="telf" placeholder="Ingresa tu teléfono">
+
+</div>
+
+<div class="saltosDeLinea">
+    <label for="asunto">Asunto del mensaje:</label><br><br>
+    <input type="radio" name="asunto" id="asunto1"> Solicitud de presupuesto
+    <input type="radio" name="asunto" id="asunto2"> Información sobre servicios
+    <input type="radio" name="asunto" id="asunto3"> Otro asunto
+</div>
+     
+<div class="saltosDeLinea">
+    <label class="saltosDeLinea" for="comentarios">Comentarios:</label>
+    <textarea name="comentarios" id="comentarios" cols="50" rows="6"></textarea>
+     
+</div>
+    
+<div class="saltosDeLinea">
+
+    <input type="checkbox" name="terminos" id="terminos"> He leido y acepto la política de privacidad
+</div>
+
+<div class="saltosDeLinea">
+
+   <input type="submit" value="Enviar mensaje">
+   <input type="reset" value="Borrar mensaje">
+
+</div>
+
+</form>
+
+
+  <div class="MapaContacto">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.437798820286!2d-2.4133115492752193!3d42.46097663661349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5aab9a063b4a51%3A0xffba4452ccca2802!2sLogro%C3%B1esa%20de%20Limpiezas%20S.L.!5e0!3m2!1ses!2ses!4v1653400306509!5m2!1ses!2ses" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+</div>
+
+</section>
+
+<footer id="footer">
+
+    <div class="footer__caja">
+       <p class="espacio"> Logronesa de limpiezas &copy  2022. Todos los derechos reservados</p>
+       <p class="espacio"><a href="#">Aviso Legal</a> | <a href="#">Política de protección</a> | <a href="#">Política de Privacidad</a></p>
+     <div>
+       <img src="./imagenes/icono-facebook.png"><img src="./imagenes/icono-twitter.png">
+     </div>
+    </div>
+  </footer>
+    
+</body>
+</html>

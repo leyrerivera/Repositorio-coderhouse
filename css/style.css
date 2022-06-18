@@ -1,0 +1,532 @@
+/* RESETEO ESTILOS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+ 
+}
+
+/* HEADER */
+
+#header {
+
+    padding: 60px;
+    height: 200px;;
+  
+}
+
+#header .header__superior {
+font-size: 12px;
+display: flex;
+position:absolute;
+top:0px;
+left: 0px;
+width: 100%;
+background-color: rgb(22, 63, 94);
+color: #fff;
+padding: 15px 10px;
+justify-content: flex-end;
+}
+
+
+.logoMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.topBarP1 {margin-right:40px;}
+.topBarP2 {margin-right:20px;}
+
+
+ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+}
+
+ul li a {
+    padding: 10px 10px;
+    margin: 30px 20px;
+    color: rgb(6, 6, 53);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover {
+    padding: 10px;
+    background-color:rgb(22, 63, 94);
+    color: #fff; 
+    border-radius: 10px;
+}
+
+
+ 
+#bannerHome img {
+    width: 100%;
+   
+}
+
+
+
+/* BLOQUE 1 HOME */
+
+.bloque1 {
+    width: 100%;
+    padding: 0px 60px;
+
+}
+
+
+
+.bloque1H1 {
+    font-size:40px;
+    padding:70px 0px;
+    color: rgb(6, 6, 53);
+    text-align: center;
+}
+
+
+.bloque1Home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.bloque1Img {
+    width: 60%;
+    float: right ;
+}
+
+.bloque1P {
+    text-align: justify ;
+}
+
+
+/* BLOQUE 2 HOME */
+
+.bloque2 {
+    margin:60px 0px 80px 0px;
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.bloque2Home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+   
+.bloque2Img {
+    width: 60%;
+    margin-left: 160px;
+}
+
+.bloque2PC {
+    margin-right: 30px;
+    text-align: justify ;
+}
+
+.bloque2Movil {
+    margin-right: 30px;
+    text-align: justify ;
+}
+
+/* BLOQUE 3 NOSOTROS */
+
+.bloque3 {
+    width: 100%;
+    padding: 0px 60px;
+}
+
+
+
+.bloque3NosotrosH1 {
+    font-size:40px;
+    padding:70px 0px;
+    color: rgb(6, 6, 53);
+    text-align: center;
+}
+
+
+
+.bloque3Nosotros {
+    display:flex;
+}
+
+.bloque3NosotrosImg {
+    width: 40%;
+}
+
+.bloque3NosotrosP {
+    margin-left: 30px;
+    text-align: justify ;
+}
+
+
+/* BLOQUE 4 NOSOTROS */
+
+.bloque4Nosotros {
+    margin:60px 0px 80px 0px;
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.bloque4Nosotros {
+    display:flex;
+}
+
+.bloque4NosotrosImg {
+    width: 40%;
+}
+
+.bloque4NosotrosPC {
+    margin-right: 30px;
+    text-align: justify ;
+}
+
+.bloque4NosotrosMovil {
+    margin-right: 30px;
+    text-align: justify ;
+}
+
+
+/* BLOQUE 5 NOSOTROS */
+
+.bloque5H1NosotrosFaqs {
+    font-size:40px;
+    color: rgb(6, 6, 53);
+}
+
+.bloque5NosotrosFaq {
+    width: 100%;
+    padding: 0px 60px 60px 60px;
+}
+
+
+/* PÁGINA PRESUPUESTO */
+
+.presupuesto {
+    display:flex;
+    width: 100%;
+    padding: 0px 60px 50px 60px;
+
+}
+
+.presupuestoH2 {
+    padding: 60px 60px;
+    font-size: 35px;
+}
+
+.bloque {
+display:inline;
+margin-right: 40px;
+
+}
+
+.espacioPresupuestoH3 {
+    padding: 10px 0px;
+}
+
+/* PÁGINA CONTACTO */
+
+
+.BloqueFormulario {
+    display:flex;
+}
+
+.contacto {
+    margin: 50px;
+}
+
+.contactoH2 {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.saltosDeLinea {
+    margin-bottom:15px;
+}
+
+.MapaContacto { 
+ width: 50%;
+ margin: 0px 30px;
+}
+
+
+/*  PAGINA SERVICIOS */
+
+.servicios {
+    width: 100%;
+    padding: 0px 60px 50px 60px;
+}
+
+.serviciosH2 {
+    font-size:40px;
+    padding:70px 0px;
+    color: rgb(6, 6, 53);
+    text-align: left;
+}
+
+
+.serviciosFlex {
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.serviciosImg {
+    width: 500px;
+    height: 300px;
+}
+
+
+
+.serviciosBloque {
+margin-left: 30px;
+display:block;
+text-align: justify ;
+}
+
+.serviciosBloqueH4 {
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+
+
+.boton {
+width: 180px;
+margin: 30px 0px;
+padding: 15px;
+border: solid 1px black;
+text-align: center;
+
+}
+/* FOOTER */
+
+#footer {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/17/14/bubbles-151852_1280.png);
+    padding: 50px 0px;
+    text-align:center;
+    width: 100% ;
+    height: 250px;
+    position:relative;
+}
+
+#footer .footer__caja {
+    background-color:rgba(255, 255, 255, 0.468);
+    padding: 15px;
+    width: auto;
+    justify-content:center;
+    margin:auto;
+ 
+}
+
+.espacio {margin-bottom: 20px;}
+.espacio a { 
+    margin-bottom: 20px;
+    text-decoration:none;
+    font-size:14px;
+    color:black;
+}
+
+.espacio a:hover {
+    text-decoration-line:underline ;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(22, 63, 94);
+}
+
+
+
+/* VERSION MOVIL */
+
+
+
+
+@media (max-width: 800px) {
+nav.header__menu {
+    display: none;
+}
+
+#header .header__logo img{
+    width: 200px;
+    margin-top:30px;
+}
+
+.bloque3Nosotros {
+    display: block;
+}
+
+.bloque3NosotrosImg {
+    width: 100%;
+}
+
+.bloque3NosotrosP {
+    margin-left: 0px;
+    margin-top:15px;
+}
+
+.bloque3 {
+    padding: 0px 30px;
+}
+
+
+.bloque4Nosotros {
+    display: block;
+}
+
+.bloque4NosotrosPC {
+   display:none;
+}
+
+.bloque4NosotrosImg {
+    width: 100%;
+}
+
+.bloque4Nosotros {
+    margin: 30px 0px 80px 0px;
+    padding: 0px 30px;
+}
+
+.bloque4NosotrosMovil {
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+
+.serviciosFlex {
+    display:block;
+    margin-bottom: 30px;
+}
+
+.serviciosImg {
+    width: 100%;
+}
+
+.servicios {
+    padding: 0px 30px;
+}
+
+.serviciosBloque {
+    margin-left: 0px;
+    margin-top:15px;
+    text-align: justify;
+}
+
+
+
+.presupuesto {
+    display: block;
+    padding: 0px 30px;
+}
+
+
+textarea#comentarios {
+    width: 100%;
+}
+
+form {
+    width: auto;
+    margin: 30px 0px;
+}
+
+.presupuestoH2 {
+    padding: 40px 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.BloqueFormulario {
+    display: block;
+}
+
+.MapaContacto {
+    width: 100%;
+    margin: 0px 0px; 
+}
+
+
+.contacto {
+    margin: 30px;
+}
+
+.contactoH2 {
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.serviciosH2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.serviciosBloqueH4 {
+   text-align: left;
+   font-size: 20px;
+}
+
+.bloque1Home {
+display: block; 
+}
+
+.bloque1Img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.bloque2Home {
+    display: block;
+}
+
+.bloque2Img {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0px;
+
+}
+
+.bloque2PC {
+display: none;}
+
+.bloque2Movil {
+    margin-right: 0px;
+}
+
+.bloque1 {
+    padding: 0px 30px;
+}
+
+.bloque2 {
+    margin: 40px 0px 80px 0px;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+
+.bloque1P {
+margin-top:15px;}
+
+}
+
+
+@media (min-width: 800px) {
+
+    .bloque4NosotrosMovil {
+        display:none;
+     }
+
+     .bloque2Movil {
+        display:none;
+    }
+
+
+    .bloque4NosotrosMovil {
+        margin-right: 30px;
+        text-align: justify ;
+    
+    }
+
+}
+
+
