@@ -43,7 +43,7 @@ position:absolute;
 top:0px;
 left: 0px;
 width: 100%;
-background: linear-gradient(#141436, #255c8d);
+background: linear-gradient(#070720, #366188);
 color: #fff;
 padding: 10px 0px 5px 0px;
 justify-content: flex-end;
@@ -92,7 +92,7 @@ ul li a:hover {
 
 @keyframes banner {
     0% {
-        opacity: 1.5;
+        opacity: 1.7;
     }
     50% {
         opacity: 0.75;
@@ -113,7 +113,7 @@ ul li a:hover {
     height: 600px;
     object-fit: cover;
     animation-name: banner;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     
 
@@ -145,7 +145,7 @@ ul li a:hover {
 #section .bloque1 img {
     width: 400px;
     margin-right: 40px;
-    transition: all 2s;
+    transition: all 3s;
 }
 
 #section .bloque1 img:hover {
@@ -167,7 +167,7 @@ ul li a:hover {
 #section .bloque2 img {
     width: 400px;
     margin-left: 40px;
-    transition: all 2s;
+    transition: all 3s;
 
 }
 
