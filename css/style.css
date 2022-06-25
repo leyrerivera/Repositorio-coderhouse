@@ -146,10 +146,13 @@ ul li a:hover {
     width: 400px;
     margin-right: 40px;
     transition: all 3s;
+    filter: grayscale(1);
+
 }
 
 #section .bloque1 img:hover {
-    opacity:  0.5;
+    filter: none;
+
 }
 
 
