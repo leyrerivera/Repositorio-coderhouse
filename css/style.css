@@ -380,6 +380,8 @@ ul li a:hover {
 
     @media (max-width: 900px) {
 
+     
+
         .header__logo img {
             width: 230px;
         }
@@ -422,11 +424,20 @@ ul li a:hover {
                                  ;
         
             grid-template-columns: 100%;
-            grid-template-rows: 370px 300px auto 250px;
+            grid-template-rows: 0px 300px auto 250px;
             gap: 20px;
             align-items: center;
         }
         
+        #header .header__logo {
+            display: none;
+        }
+
+
+        
+        #header .header__menu {
+            display: none;
+        }
 
         #header .logoMenu {
             max-width: 100%;
@@ -440,9 +451,7 @@ ul li a:hover {
         }
         
         #header .header__superior {
-            font-size: 10px;
-            display: block;
-            padding-left: 20px;
+            display: none;
         }
 
         ul li {
@@ -513,7 +522,7 @@ ul li a:hover {
                              "footer";
     
         grid-template-columns: 100%;
-        grid-template-rows: 370px 20px auto 250px;
+        grid-template-rows: 0px 20px auto 250px;
         gap: 20px;
         align-items: center;
     }
@@ -577,9 +586,13 @@ ul li a:hover {
                                  "footer";
         
             grid-template-columns: 1fr;
-            grid-template-rows: 250px auto 250px;
+            grid-template-rows: 0px auto 250px;
             gap: 20px;
             align-items: center;
+        }
+
+        #mainC img {
+            margin-top: 0px;
         }
 
 
@@ -595,6 +608,12 @@ ul li a:hover {
         .ocultaPCN{
             display: none;
         }
+
+        .menuMovil{
+            display: none;
+        }
+
+       
     }
 
         @media only screen and (min-width : 900px) and (max-width : 1300px) {
@@ -621,6 +640,10 @@ ul li a:hover {
         }
        
     .header__logo img {width: 250px;}
+
+    .header__menu {
+        padding-right: 30px;
+    }
 
     }
 
