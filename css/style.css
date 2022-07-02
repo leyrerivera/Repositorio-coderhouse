@@ -92,14 +92,14 @@ ul li a:hover {
 
 @keyframes banner {
     0% {
-        opacity: 1.5;
+        filter: grayscale(1);
     }
     50% {
-        opacity: 0.75;
+        opacity: 1.75;
     }
 
     100% {
-        opacity: 0.45;
+        opacity: 0.75;
     }
     
 }
