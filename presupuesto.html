@@ -4,130 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solicitud de presupuesto</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <div class="menuMovil">
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/logronesa-logo.jpg " width="200px"> </a>            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./presupuesto.html">Solicitar Presupuesto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+           
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="grid-containerPresupuesto">
 
     <header id="header">
-        <div class="header__superior">
-            <p class="topBarP1">Teléfono de contacto: 600000000 / 9410000000</p>
-            <p class="topBarP2">Correo electrónico: info@logronesadelimpiezas.com</p>
-        </div>
-         
-        <div class="menuMovil">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+      <div class="header__superior">
+          <p>Teléfono de contacto: 600000000 / 9410000000</p>
+          <p>Correo electrónico: info@logronesadelimpiezas.com</p>
       </div>
-    </header>
-        <hr>
+   
+  <div class="logoMenu">
+      <div class="header__logo">
+          <a href="./index.html"><img src="./imagenes/logronesa-logo.jpg"></a>
+          </div>
+      <nav class="header__menu">
+              <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="./servicios.html">Servicios</a></li>
+          <li><a href="./presupuesto.html">Solicitar presupuesto</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+              </ul>   
+      </nav>
+  </div>
+  </header>
+  
+  <main id="mainP">
+          <img src="https://cdn.pixabay.com/photo/2013/12/17/20/10/bubbles-230014_960_720.jpg">
+ 
+   <div class="containerh2">
+    <h2 class="tituloh2">¡Solicita presupuesto sin compromiso!</h2>
+
+   </div>
     
+    <div class="container">
+       
+        <div class="row">
+          <div class="col-12">
+
+
+            <form class="align-items-center">
+
+            <div class="row">
+                <div class="col">
+                  <input type="nombre" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col mb-3">
+                  <input type="apellidos" class="form-control" placeholder="Apellidos" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                    <input id="telefono" name="telefono" type="text" placeholder="Número de teléfono" class="form-control">                </div>
+                <div class="col">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
+                </div>
+              </div>
+              <div class=" mb-2 ">
+                <label for="form-check" class="form-label">Tipo de servicio:</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Limpieza de comunidades o zonas comunes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Limpieza de oficinas o locales</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                <label class="form-check-label" for="inlineRadio3">Limpieza de fábricas</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" >
+                <label class="form-check-label" for="inlineRadio4">Limpieza de pabellones</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" >
+                <label class="form-check-label" for="inlineRadio5">Limpieza de cristales</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6" >
+                <label class="form-check-label" for="inlineRadio6">Limpieza fin de obras</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7" >
+                <label class="form-check-label" for="inlineRadio7">Limpiezas puntuales</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option8" >
+                <label class="form-check-label" for="inlineRadio8">Limpiezas en altura</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option9" >
+                <label class="form-check-label" for="inlineRadio9">Limpieza diógenes</label>
+              </div>
+              <div class="form-check form-check-inline mb-3">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option10" >
+                <label class="form-check-label" for="inlineRadio10">Limpieza de siniestros</label>
+              </div>
+
+
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"  placeholder="Redacta tu mensaje"></textarea>
+              </div>
+              <label>
+                <input type="checkbox" checked class="text-muted"> He leído y acepto la <a href="#"> Política de Privacidad</a>
+              </label>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-outline-secondary btn-lg float-right ">Enviar mensaje</button>
+              </div>
+            </form>
+
+
+
+          </div>
+        
+      </div>
+
+    </main>
     
-    <h2 class="presupuestoH2">Solicita presupuesto sin compromiso</h2>
+    <footer class="footer">
 
-<section class="presupuesto">
-
-    <div class="bloque">
-      <h3 class="espacioPresupuestoH3"> Lorem ipsum dolor sit amet</h3>
-         
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, molestias reprehenderit! Quo accusamus ea expedita neque labore laborum temporibus. Fuga nihil maiores et eius, voluptatem illo perspiciatis cupiditate voluptatum error.</p>
-    
-      <h3 class="espacioPresupuestoH3"> Lorem ipsum dolor sit amet</h3>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nulla molestiae dolores architecto itaque perferendis laudantium minus, iure perspiciatis atque reiciendis cupiditate cumque nihil sequi accusantium voluptatibus fuga eum tenetur.</p>
-    
-      <h3 class="espacioPresupuestoH3"> Lorem ipsum dolor sit amet</h3>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nulla molestiae dolores architecto itaque perferendis laudantium minus, iure perspiciatis atque reiciendis cupiditate cumque nihil sequi accusantium voluptatibus fuga eum tenetur.</p>
-    
-    <h3 class="espacioPresupuestoH3"> Lorem ipsum dolor sit amet</h3>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nulla molestiae dolores architecto itaque perferendis laudantium minus, iure perspiciatis atque reiciendis cupiditate cumque nihil sequi accusantium voluptatibus fuga eum tenetur.</p>
-
+      <div class="footer__caja">
+         <p class="espacio"> Logronesa de limpiezas &copy  2022. Todos los derechos reservados</p>
+         <p class="espacio"><a href="#">Aviso Legal</a> | <a href="#">Política de protección</a> | <a href="#">Política de Privacidad</a></p>
+       <div>
+         <img src="./imagenes/icono-facebook.png"><img src="./imagenes/icono-twitter.png">
+       </div>
+      </div>
+    </main>
+    </footer>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </div>
-
- <form  action="formulario.php" method="get">
-
-            <div class="saltosDeLinea">
-              <label for="nombreyapellidos">Nombre y apellidos:</label>
-              <input type="text" id="nombreyapellidos" placeholder="Ingresa tu nombre y tus apellidos">
-            </div>
-          
-          <div class="saltosDeLinea">
-              <label for="correo">Correo electrónicoo:</label>
-              <input type="mail" id="correo" placeholder="Ingresa tu correo electrónico">
-          </div>
-          
-          <div class="saltosDeLinea">
-              <label for="telf">Teléfono de contacto:</label>
-              <input type="tel" id="telf" placeholder="Ingresa tu teléfono">
-          
-          </div>
-          
-          <div class="saltosDeLinea">
-              <label for="asunto">Asunto del mensaje:</label><br><br>
-              <input type="radio" name="asunto" id="asunto1"> Solicitud de presupuesto
-              <input type="radio" name="asunto" id="asunto2"> Información sobre servicios
-              <input type="radio" name="asunto" id="asunto3"> Otro asunto
-          </div>
-               
-          <div class="saltosDeLinea">
-              <label class="saltosDeLinea" for="comentarios">Comentarios:</label>
-              <textarea name="comentarios" id="comentarios" cols="50" rows="6"></textarea>
-               
-          </div>
-              
-          <div class="saltosDeLinea">
-          
-              <input type="checkbox" name="terminos" id="terminos"> He leido y acepto la política de privacidad
-          </div>
-          
-          <div class="saltosDeLinea">
-          
-             <input type="submit" value="Enviar mensaje">
-             <input type="reset" value="Borrar mensaje">
-          
-          </div>
-          
-  </form>
-    
-</section>
-
-        <footer id="footer">
-
-            <div class="footer__caja">
-               <p class="espacio"> Logronesa de limpiezas &copy  2022. Todos los derechos reservados</p>
-               <p class="espacio"><a href="#">Aviso Legal</a> | <a href="#">Política de protección</a> | <a href="#">Política de Privacidad</a></p>
-             <div>
-               <img src="./imagenes/icono-facebook.png"><img src="./imagenes/icono-twitter.png">
-             </div>
-            </div>
-          </footer>
-    
- <!-- JavaScript Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

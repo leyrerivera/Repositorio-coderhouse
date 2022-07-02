@@ -260,7 +260,7 @@ ul li a:hover {
     grid-area: sectionN;
     width: 1300px;
     margin: 0 auto;
-    padding: 70px 0px 150px 0px;
+    padding: 70px 0px 50px 0px;
 }
 
 .sectionN h2 {
@@ -282,8 +282,11 @@ ul li a:hover {
     margin-right: 40px;
 }
 
-.faqs {
-    margin:60px;
+
+.containerFaqs {
+    width: 1300px;
+    margin: 0 auto;
+    margin: 60px;
 }
 
 .sectionN .bloque1Nosotros p {
@@ -307,9 +310,12 @@ ul li a:hover {
 
 
 .faqs {
-    margin-top: 60px;
-    font-size: 40px;
-    border-bottom: 1px solid rgb(8, 8, 37);
+    margin: 60px;
+}
+
+.tituloFaqs {
+font-size: 40px;
+border-bottom: 1px solid rgb(8, 8, 37);
 }
 
 
@@ -357,14 +363,48 @@ ul li a:hover {
     margin: 0px 20px;
 }
 
-/* CONTENIDO PRINCIPAL NOSOTROS */
+/* GRID PRESUPUESTO */
 
 
-.sectionN {
-    grid-area: sectionN;
-    width: 1300px;
+.grid-containerPresupuesto {
+    display: grid;
+    grid-template-areas:
+                         "header header"
+                         "mainP mainP"
+                         "footer footer";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px auto 250px;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#mainP {
+    grid-area: mainP;
+    width: 100%;
     margin: 0 auto;
-    padding: 70px 0px 150px 0px;
+    margin-bottom: 60px;
+
+}
+
+#mainP img {
+    width: 100%;
+    height: 20px;
+    object-fit: cover;
+    opacity: 0.5;
+    margin-top: -100px;
+
+}
+
+.containerh2 {
+    margin: 0px 0px 50px 0px;
+}
+
+.tituloh2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 20px;
 }
 
 
@@ -595,6 +635,19 @@ ul li a:hover {
             margin-top: 0px;
         }
 
+        .grid-containerPresupuesto {
+            display: grid;
+            grid-template-areas:
+                                 "header"
+                                 "mainP"
+                                 "footer";
+        
+            grid-template-columns: 1fr;
+            grid-template-rows: 40px auto 250px;
+            gap: 20px;
+            align-items: center;
+        }
+
 
       }
 
@@ -657,169 +710,6 @@ ul li a:hover {
 
 
 /* CECILIA ESTE CODIGO LO PONGO AL FINAL POR QUE LO TENGO QUE REESCRIBIR ENTERO */
-
-
-
-
-/* BLOQUE 3 NOSOTROS */
-
-.bloque3 {
-    width: 100%;
-    padding: 0px 60px;
-}
-
-
-
-.bloque3NosotrosH1 {
-    font-size:40px;
-    padding:70px 0px;
-    color: rgb(6, 6, 53);
-    text-align: center;
-}
-
-
-
-.bloque3Nosotros {
-    display:flex;
-}
-
-.bloque3NosotrosImg {
-    width: 40%;
-}
-
-.bloque3NosotrosP {
-    margin-left: 30px;
-    text-align: justify ;
-}
-
-
-/* BLOQUE 4 NOSOTROS */
-
-.bloque4Nosotros {
-    margin:60px 0px 80px 0px;
-    width: 100%;
-    padding: 0px 60px;
-}
-
-.bloque4Nosotros {
-    display:flex;
-}
-
-.bloque4NosotrosImg {
-    width: 40%;
-}
-
-.bloque4NosotrosPC {
-    margin-right: 30px;
-    text-align: justify ;
-}
-
-.bloque4NosotrosMovil {
-    margin-right: 30px;
-    text-align: justify ;
-}
-
-
-/* BLOQUE 5 NOSOTROS */
-
-.bloque5H1NosotrosFaqs {
-    font-size:40px;
-    color: rgb(6, 6, 53);
-}
-
-.bloque5NosotrosFaq {
-    width: 100%;
-    padding: 0px 60px 60px 60px;
-}
-
-
-/* PÁGINA PRESUPUESTO */
-
-.presupuesto {
-    display:flex;
-    width: 100%;
-    padding: 0px 60px 50px 60px;
-
-}
-
-.presupuestoH2 {
-    padding: 60px 60px;
-    font-size: 35px;
-}
-
-.bloque {
-display:inline;
-margin-right: 40px;
-
-}
-
-.espacioPresupuestoH3 {
-    padding: 10px 0px;
-}
-
-/* PÁGINA CONTACTO */
-
-
-.BloqueFormulario {
-    display:flex;
-}
-
-.contacto {
-    margin: 50px;
-}
-
-.contactoH2 {
-    margin-bottom: 50px;
-    font-size: 35px;
-}
-
-.saltosDeLinea {
-    margin-bottom:15px;
-}
-
-.MapaContacto { 
- width: 50%;
- margin: 0px 30px;
-}
-
-
-/*  PAGINA SERVICIOS */
-
-.servicios {
-    width: 100%;
-    padding: 0px 60px 50px 60px;
-}
-
-.serviciosH2 {
-    font-size:40px;
-    padding:70px 0px;
-    color: rgb(6, 6, 53);
-    text-align: left;
-}
-
-
-.serviciosFlex {
-    display:flex;
-    margin-bottom: 30px;
-}
-
-.serviciosImg {
-    width: 500px;
-    height: 300px;
-}
-
-
-
-.serviciosBloque {
-margin-left: 30px;
-display:block;
-text-align: justify ;
-}
-
-.serviciosBloqueH4 {
-    font-size:25px;
-    margin-bottom:20px;
-}
 
 
 
