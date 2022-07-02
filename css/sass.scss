@@ -1,0 +1,144 @@
+
+/*Variables*/
+$colorPrincipal: rgb(18, 12, 75);
+$tamañoH2: 50px;
+
+
+.grid-containerPresupuesto {
+    display: grid;
+    grid-template-areas:
+                         "header header"
+                         "mainP mainP"
+                         "footer footer";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px auto 250px;
+    gap: 20px;
+    align-items: center;
+
+#header {
+grid-area: header;
+
+ .header__superior{
+ font-size: 13px;
+ display: flex;
+ position:absolute;
+ top:0px;
+ left: 0px;
+ width: 100%;
+ background: linear-gradient(#141436, #255c8d);
+ color: #fff;
+ padding: 10px 0px 5px 0px;
+ justify-content: flex-end;
+
+  p {
+    margin-right: 40px;
+  }
+ }
+
+.logoMenu {
+
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:20px;
+
+  .header__menu {
+   
+    ul li {
+        list-style: none;
+        display: inline;
+        position: relative;
+        font-size: 18px;
+        padding: 0px 15px;
+    
+    }
+    
+    ul li a {
+        padding: 10px 10px;
+        margin: 30px 20px;
+        color: rgb(6, 6, 53);
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    ul li a:hover {
+        padding: 10px;
+        background-color:rgb(22, 63, 94);
+        color: #fff; 
+        border-radius: 10px;
+    }
+    
+  }
+}
+
+}
+
+#mainP {
+    grid-area: mainP;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+ img {
+    width: 100%;
+    height: 20px;
+    object-fit: cover;
+    opacity: 0.5;
+    margin-top: -100px;
+    }
+ .containerh2 {
+    margin: 0px 0px 50px 0px;
+    .tituloh2 {
+        font-size: $tamañoH2;
+        text-align: center;
+        margin: 0px 20px;
+        color: $colorPrincipal;
+    }
+
+    }
+
+}
+
+
+.footer {
+    grid-area: footer;
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/17/14/bubbles-151852_1280.png);
+    padding: 50px 0px;
+    text-align:center;
+    width: 100% ;
+    position:relative;
+    
+    .footer__caja {
+        background-color:rgba(255, 255, 255, 0.468);
+        padding: 15px;
+        width: auto;
+        justify-content:center;
+        margin:auto;
+
+        .espacio {margin-bottom: 20px;}
+        .espacio a { 
+            margin-bottom: 20px;
+            text-decoration:none;
+            font-size:14px;
+            color:black;
+        }
+        
+        .espacio a:hover {
+            text-decoration-line:underline ;
+            text-decoration-style: solid;
+            text-decoration-color: rgb(22, 63, 94);
+        }
+     
+    }
+
+}
+
+}
+
+
+
+
