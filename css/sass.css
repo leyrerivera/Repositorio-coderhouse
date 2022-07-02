@@ -249,12 +249,12 @@ ul li {
   align-items: center;
 }
 
-#mainP h2 {
-  font-size: 30px;
-  text-align: center;
-  padding: 15px
+
+  .grid-containerPresupuesto #mainP .containerh2 .tituloh2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px
   }
-  
   
 
 
