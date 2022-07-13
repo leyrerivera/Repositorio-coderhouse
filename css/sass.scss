@@ -1,3 +1,93 @@
+/* Mapas */
+
+$textos: (
+pequeño: 15px,
+mediano: 25px,
+grande: 45px,
+
+);
+
+
+@each $nombre, $valor in $textos {
+
+    .text-#{$nombre} {
+       font-size:  $valor;
+    }
+
+}
+
+/* Map Get */
+
+
+$colores: (
+    principal: yellow,
+    fondo: rgb(147, 186, 238)
+);
+
+.box-fondo {
+    background-color: map-get($colores,fondo) ;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+
+/* Extend */
+
+.boton {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.boton--aceptar {
+    @extend .boton;
+    background-color: #fff;
+    border: 1px solid blue;
+    color: blue;
+
+}
+
+
+/* Mixins */
+
+@mixin botones {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.botones--info {
+    @include botones;
+    border: 1px solid yellow;
+    background-color: white;
+    color: black;
+}
+
+.botones--negro {
+    @include botones;
+    border: 1px solid yellow;
+    background-color: black;
+    color: white;
+}
+
+
+@mixin btns ($col, $bg) {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+    color: $col;
+    background-color: $bg;
+    
+}
+
+.btns--contacto {
+    @include btns(white, blue)
+}
 
 /*Variables*/
 $colorPrincipal: rgb(18, 12, 75);

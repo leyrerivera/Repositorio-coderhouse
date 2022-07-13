@@ -1,12 +1,66 @@
-/* RESETEO ESTILOS */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Verdana;
-  box-sizing: border-box;
-
+@charset "UTF-8";
+/* Mapas */
+.text-pequeño {
+  font-size: 15px;
 }
 
+.text-mediano {
+  font-size: 25px;
+}
+
+.text-grande {
+  font-size: 45px;
+}
+
+/* Map Get */
+.box-fondo {
+  background-color: #93baee;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+/* Extend */
+.boton, .boton--aceptar {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.boton--aceptar {
+  background-color: #fff;
+  border: 1px solid blue;
+  color: blue;
+}
+
+/* Mixins */
+.botones--info {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  background-color: white;
+  color: black;
+}
+
+.botones--negro {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  background-color: black;
+  color: white;
+}
+
+.btns--contacto {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+}
 
 /*Variables*/
 .grid-containerPresupuesto {
@@ -164,7 +218,6 @@
           text-decoration-color: #163f5e;
 }
 /*# sourceMappingURL=sass.css.map */
-
 
 /*VERSION MOVIL*/
 
