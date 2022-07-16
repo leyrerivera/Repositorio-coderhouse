@@ -142,12 +142,29 @@ ul li a:hover {
     margin:60px;
 }
 
+@keyframes fotohome {
+    0% {
+        filter: grayscale(1);
+    }
+    50% {
+        opacity: 1.75;
+    }
+
+    100% {
+        opacity: 0.75;
+    }
+    
+}
+
 #section .bloque1 img {
     width: 400px;
+    height: 450px;
     margin-right: 40px;
-    transition: all 2s;
-    filter: grayscale(1);
-
+    animation-name: fotohome;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
 }
 
 #section .bloque1 img:hover {
@@ -159,6 +176,8 @@ ul li a:hover {
 
 .bloque1__parrafos {
     display: block;
+    margin-top: 40px;
+    margin-left: 40px;
     text-align: justify;
 
 }
@@ -172,7 +191,7 @@ ul li a:hover {
 .bloque2__parrafos {
     display: block;
     text-align: justify;
-
+    line-height: 20px;
 }
 
 .bloque2__parrafos h3 {
@@ -197,7 +216,7 @@ font-size: 35px;
 .boton {
     display: block;
     margin-left: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     width: 200px;
     padding: 15px;
     background: linear-gradient(rgb(20, 20, 54), rgb(37, 92, 141));
