@@ -155,15 +155,29 @@ ul li a:hover {
 
 }
 
-#section .bloque1 p {
-    text-align: justify;
-}
 
+
+.bloque1__parrafos {
+    display: block;
+    text-align: justify;
+
+}
 
 #section .bloque2 {
     display:flex;
     margin:60px;
 
+}
+
+.bloque2__parrafos {
+    display: block;
+    text-align: justify;
+
+}
+
+.bloque2__parrafos h3 {
+margin-bottom: 40px;
+font-size: 35px;
 }
 
 #section .bloque2 img {
@@ -178,17 +192,30 @@ ul li a:hover {
     opacity:  0.5;
 }
 
-#section .bloque2 p {
-    text-align: justify;
-}
 
 
+.boton {
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    width: 200px;
+    padding: 15px;
+    background: linear-gradient(rgb(20, 20, 54), rgb(37, 92, 141));
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    
+    }
 
 /* FOOTER */
 
 .footer {
     grid-area: footer;
-    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/17/14/bubbles-151852_1280.png);
+    background-image: url(https://pixabay.com/get/g085f4c0ececc98b5fd896e5695b1c76c0bfc507fb20202ee64eea2c67e6fd75c1f965ee5d88437bde81c68e096522fae_1920.jpg);
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(16, 16, 70));
+    background-position: center;
+    background-size: cover;
     padding: 50px 0px;
     text-align:center;
     width: 100% ;
@@ -197,6 +224,8 @@ ul li a:hover {
 
 .footer .footer__caja {
     background-color:rgba(255, 255, 255, 0.468);
+    filter: opacity(none) drop-shadow(0 0 0 rgb(255, 255, 255));
+
     padding: 15px;
     width: auto;
     justify-content:center;
@@ -835,17 +864,7 @@ padding: 15px
 
 
 
-/* CECILIA ESTE CODIGO LO PONGO AL FINAL POR QUE LO TENGO QUE REESCRIBIR ENTERO */
 
 
 
-.boton {
-width: 50%;
-
-margin: 0px auto;
-padding: 15px;
-border: solid 1px black;
-text-align: center;
-
-}
 
