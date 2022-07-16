@@ -197,6 +197,7 @@ ul li a:hover {
 .bloque2__parrafos h3 {
 margin-bottom: 40px;
 font-size: 35px;
+text-align: left;
 }
 
 #section .bloque2 img {
@@ -224,8 +225,38 @@ font-size: 35px;
     font-size: 18px;
     border-radius: 5px;
     text-align: center;
+    text-decoration: none;
+
     
     }
+
+.boton:hover {
+color: white;
+background: linear-gradient( rgb(37, 92, 141),rgb(20, 20, 54));
+}
+
+
+.botonContacto {
+    display: block;
+    margin: 0px auto;
+    margin-top: 60px;
+    width: 250px;
+    padding: 15px;
+    background: linear-gradient(rgb(20, 20, 54), rgb(37, 92, 141));
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    
+    }
+
+.botonContacto:hover {
+color: white;
+background: linear-gradient( rgb(37, 92, 141),rgb(20, 20, 54));
+}
+
 
 /* FOOTER */
 
@@ -522,6 +553,26 @@ border-bottom: 1px solid rgb(8, 8, 37);
 
     @media (max-width: 900px) {
 
+
+        .boton {
+    
+            width: 200px;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            margin:  0px auto;
+            margin-top: 30px;
+            
+            }
+
+
+        .bloque1__parrafos {
+         
+            margin-left: 0px;
+        
+        }
+
      
 
         .header__logo img {
@@ -713,9 +764,7 @@ border-bottom: 1px solid rgb(8, 8, 37);
             display: none;
         }
 
-        .boton {
-            display: none;
-        }
+    
 
        
 
