@@ -231,8 +231,7 @@ font-size: 35px;
 
 .footer {
     grid-area: footer;
-    background-image: url(https://pixabay.com/get/g085f4c0ececc98b5fd896e5695b1c76c0bfc507fb20202ee64eea2c67e6fd75c1f965ee5d88437bde81c68e096522fae_1920.jpg);
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(16, 16, 70));
+    background:  linear-gradient(rgb(20, 20, 54), rgb(37, 92, 141));
     background-position: center;
     background-size: cover;
     padding: 50px 0px;
