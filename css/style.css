@@ -1,8 +1,9 @@
+
 /* RESETEO ESTILOS */
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
  
 }
@@ -10,6 +11,8 @@
 body  {
     max-width: 100%;
 }
+
+
 
 /* GRID HOME */
 
@@ -192,6 +195,7 @@ ul li a:hover {
     display: block;
     text-align: justify;
     line-height: 20px;
+    padding-bottom: 30px;
 }
 
 .bloque2__parrafos h3 {
@@ -280,6 +284,10 @@ background: linear-gradient( rgb(37, 92, 141),rgb(20, 20, 54));
     justify-content:center;
     margin:auto;
  
+}
+
+.footer img {   
+    padding: 5px;
 }
 
 .espacio {margin-bottom: 20px;}
@@ -707,7 +715,7 @@ border-bottom: 1px solid rgb(8, 8, 37);
          }
 
          .ocultamovil {
-             display: none;
+             display: none!important;
          }
      
     /* NOSOTROS MOVIL */
@@ -764,6 +772,11 @@ border-bottom: 1px solid rgb(8, 8, 37);
         .faqs {
             margin: 30px;
             font-size: 35px;
+        }
+
+        .faqs p {
+            margin: 30px;
+            font-size: 17px;
         }
 
         .ocultamovilN {
